@@ -3,7 +3,7 @@ name: Tarea Automatizada de ejecución de pruebas
 env:
   DOTNET_VERSION: '8.0'                     # la versión de .NET
   SONAR_ORG: 'edwardapaza'                    # Nombre de la organización de sonar cloud
-  SONAR_PROJECT: 'BancaApp'        # Key ID del proyecto de sonar
+  SONAR_PROJECT: 'edwardapaza_bancaapp'        # Key ID del proyecto de sonar
 on:
   push:
     branches: [ "main" ]
